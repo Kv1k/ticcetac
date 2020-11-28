@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <%- include('navbar') %>
+    <div class="container-fluid" >
+        
+        <h3 class="oneWayForm">One-way ticket : </h3>
+        
+        <div class="row justify-content-center">
+            <form action="/search" method="POST">
+                <div class="form-row">
+                    <div class="col-6 col-sm-3 mr-2 text-center">
+                            <input name="departure" type="text" class="form-control" placeholder="From Lille, Paris...">
+                    </div>
+                    <div class="col-6 col-sm-3 mr-2 text-center">
+                        <input name="arrival" type="text" class="form-control" placeholder="To Lyon, Montpellier...">
+                    </div>
+                    <div id="formButton"class="col-6 col-sm-3 mr-2 text-center">
+                        <input name="date" type="date" class="form-control">  
+                       
+                        <button  type="submit" class="btn btn-danger" id="button-addon2">Go</button>
+                       
+                    </div>
+                   
+
+
+                    
+                
+                </div>
+                
+            </form>  
+          
+
+        </div>
+        <div class="blockImg"class="row justify-content-center">
+            <img class="img" src="/images/landmark.png" class="img-fluid" alt="Responsive image">
+
+        </div>    
+            
+        
+
+        
+        
+        
+ 
+    </div>
+    <%- include('copyright') %>  
+</body>
+</html>

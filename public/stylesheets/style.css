@@ -1,0 +1,117 @@
+body {
+  
+  background: rgb(200,198,226);
+  background: linear-gradient(90deg, rgba(200,198,226,1) 0%, rgba(108,158,212,1) 40%, rgba(28,95,221,1) 100%);
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+#linkNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; 
+  width: 100vw;
+  padding: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.itemNav{
+  margin: 8px;
+}
+.deconnexion{
+  color: red;
+ 
+}
+.mYLT{
+
+  color: black;
+ 
+}
+#form{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+ 
+  
+  padding-top: 80px;
+  color: white;
+}
+
+
+.oneWayForm{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+  height: 120px;
+  
+  padding-left: 20px;
+  padding-bottom: 5px;
+  color: white;
+}
+.img{
+  width: 16vw;
+  height: 29vh;
+  margin-top: 40px;
+}
+.blockImg{
+  text-align: center;
+  margin-bottom: 250px;
+}
+
+#oops{
+  color: white;
+}
+#container-error{
+  margin-bottom: 490px;
+}
+
+#container-ticketcard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+
+  height: 88vh;
+  
+}
+.table{
+  background-color: white;
+
+}
+
+.borderless td, .borderless th{
+  border: white 1px solid
+}
+#confirm-button{
+margin-left: 55vw;
+}
+.sign{
+  padding: 30px;
+}
+
+
+.form-row{
+  display: flex;
+  justify-content: center;
+  
+}
+#formButton{
+  display: flex;
+  flex-direction: row;
+}
+#button-addon2{
+  margin-left: 20px;
+}
+#form2{
+  background-color: red;
+  height: 90vh;
+}
+.copyright{
+  color: white;
+  text-align: center;
+}
